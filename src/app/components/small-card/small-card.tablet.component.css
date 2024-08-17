@@ -1,0 +1,21 @@
+@media screen and (max-width: 1100px) and (min-width: 766px){
+    .small-card{
+        width: 300px;
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 1rem;
+    }
+
+    .small-titulo h1{
+        margin-top: 0.2rem;
+        font-size: 12.5px;
+
+    }
+    
+    .small-data p{
+        font-size: 10px;
+        color: #555;
+    }
+
+}
