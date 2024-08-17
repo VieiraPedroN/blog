@@ -1,0 +1,14 @@
+@media screen and (max-width:450px){
+    .barra{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: auto;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+    i{
+        font-size: 2rem;
+    }
+    
+}

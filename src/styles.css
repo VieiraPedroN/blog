@@ -10,8 +10,8 @@
 }
 
 body {
-    width: 80%; /* Define a largura do body como 90% da largura da tela */
-    margin: 0 auto; /* Centraliza o body horizontalmente */
+    width: 80%; 
+    margin: 0 auto; 
     padding: 0;
 }
 
@@ -20,3 +20,11 @@ a {
     color: inherit;
 }
 
+@media screen and (max-width:950px){
+    body {
+        width: 90%; 
+        margin: 0 auto; 
+        padding: 0;
+    }
+
+}

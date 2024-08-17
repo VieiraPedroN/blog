@@ -25,3 +25,6 @@ img{
     color: gray;
 }
 
+hr{
+    display: none;
+}

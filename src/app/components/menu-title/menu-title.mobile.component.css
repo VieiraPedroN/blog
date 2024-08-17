@@ -1,0 +1,9 @@
+@media screen and (max-width:450px){
+    .title h1{
+        color: #ffffff;
+        font-size: 60px;
+        display: flex;
+        justify-content: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
