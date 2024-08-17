@@ -1,0 +1,10 @@
+@media screen and (min-width:750px){
+    .barra{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 55%;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+}
