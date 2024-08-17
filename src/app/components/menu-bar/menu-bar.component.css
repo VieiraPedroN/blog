@@ -1,0 +1,12 @@
+.barra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 40%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+li{
+    list-style: none;
+}

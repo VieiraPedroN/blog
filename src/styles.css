@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #111111;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 80%; /* Define a largura do body como 90% da largura da tela */
+    margin: 0 auto; /* Centraliza o body horizontalmente */
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+

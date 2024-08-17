@@ -1,0 +1,10 @@
+hr{
+    border-color: #444444;
+    margin: 0;
+}
+
+.articles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

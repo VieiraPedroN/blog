@@ -1,0 +1,27 @@
+img{
+    width: 100%;
+    height: auto;
+}
+
+.big-card{
+    width: 450px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1rem;
+}
+.data p{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #555;
+}
+.titulo{
+    margin-top: 0.2rem;
+    margin-bottom: 0.6rem;
+}
+
+.descricao p{
+    color: gray;
+}
+
