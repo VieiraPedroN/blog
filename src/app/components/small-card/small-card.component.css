@@ -29,6 +29,10 @@
     margin-left: 1rem;
 }
 
+img{
+    width: 160px;
+}
+
 hr{
     display: flex;
     margin-top: 1rem;

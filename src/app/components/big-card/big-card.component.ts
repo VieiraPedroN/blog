@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-big-card',
@@ -8,6 +8,14 @@ import { Component } from '@angular/core';
     'big-card.mobile.component.css',
     'big-card.tablet.component.css']
 })
-export class BigCardComponent {
+export class BigCardComponent{
 
+  @Input()
+  photoBigCard: string = ""
+  @Input()
+  titleBigCard: string = ""
+  @Input()
+  descriptionBigCard: string = ""
+  @Input()
+  dataAtual: string = ""
 }
