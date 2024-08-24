@@ -1,16 +1,21 @@
 <div class="content">
-    <div class="content-img">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU895Xq4Hlg8zIUGyIHMRWDqVIahLYlp9XBQ&s" alt="">
+    
+    <div class="img-post">
+        <div class="content-img">
+            <img src={{photoContent}} alt="">
+        </div>
+            <div class="content-data">
+            <p>{{dataContent}}</p>
+        </div>
     </div>
-    <div class="content-data">
-        <p>19/08/2024 20:52</p>
+    
+    <div class="content-post">
+        <div class="content-title">
+            <h1>{{titleContent}}</h1>
+        </div>
+        <div class="content-description">
+            <p>{{descriptionContent}}</p>   
+        </div>
     </div>
-    <div class="content-title">
-        <h1>Zebra é um dos animais mais bonitos do mundo</h1>
-    </div>
-    <div class="content-description">
-        <p>Este animal é conhecido por sua pelagem preta e branca, que
-            é uma das características mais distintivas do zebra. Além disso, a zebra
-            é um animal muito rápido e pode correr a velocidades de até 90 km/h.</p>   
-    </div>
+    <a [routerLink]="['']"> << Voltar </a>
 </div>

@@ -18,4 +18,6 @@ export class BigCardComponent{
   descriptionBigCard: string = ""
   @Input()
   dataAtual: string = ""
+  @Input()
+  Id: string = "0"
 }

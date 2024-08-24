@@ -3,8 +3,8 @@
 }
 
 .small-card{
-    width: 400px;
-    height: 90px;
+    width: 550px;
+    height: 120px;
     display: flex;
     flex-direction: row;
     margin-top: 1rem;
@@ -18,7 +18,7 @@
 }
 
 .small-titulo h1{
-    margin-top: 0.2rem;
+    margin-top: 1.5rem;
     font-size: 17px;
     margin-left: 1rem;
 }
@@ -30,7 +30,7 @@
 }
 
 img{
-    width: 160px;
+    width: 200px;
 }
 
 hr{

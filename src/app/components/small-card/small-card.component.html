@@ -1,5 +1,5 @@
 <div class="small-card">
-    <a href="">
+    <a [routerLink]="['content', Id]">
         <img src={{photoSmallCard}}
             alt="photo">
     </a>
@@ -7,7 +7,7 @@
         <div class="small-data">
             <p>{{dataPost}}</p>
         </div>
-        <a href="">
+        <a [routerLink]="['content', Id]">
             <div class="small-titulo">
                 <h1>{{titleSmallCard}}</h1>
             </div>

@@ -1,12 +1,14 @@
 hr{
+    width: 70%;
     border-color: #444444;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .articles{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    margin-top: 2rem;
 }
 
 
