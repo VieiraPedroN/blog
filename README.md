@@ -1,27 +1,19 @@
 # Blog
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.4.
+Este é um projeto de blog desenvolvido em Angular, criado para servir como uma base para a criação e gerenciamento de posts. O projeto inclui funcionalidades essenciais para exibir e organizar conteúdos de blog, com uma estrutura modular que facilita a expansão e personalização.
 
-## Development server
+## Funcionalidades do Blog
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Exibição de Posts:** O blog permite a visualização de posts organizados cronologicamente. Cada post inclui um título, conteúdo e data de publicação.
 
-## Code scaffolding
+- **Criação e Edição de Posts:** A estrutura do projeto permite a fácil integração de funcionalidades para criar, editar e deletar posts. Estas funcionalidades ainda não estão implementadas, mas o código está preparado para futuras expansões.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Design Responsivo:** O blog é responsivo, garantindo uma boa experiência de leitura tanto em dispositivos móveis quanto em desktops.
 
-## Build
+- **Componentes Modulares:** O projeto utiliza uma arquitetura baseada em componentes, o que facilita a manutenção e a adição de novas funcionalidades ao blog.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Tecnologias Utilizadas
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- **Angular:** Framework principal utilizado para a construção da aplicação.
+- **HTML5 e CSS3:** Usados para a estrutura e o design das páginas.
+- **TypeScript:** Linguagem utilizada para a lógica da aplicação.
